@@ -1,0 +1,81 @@
+@import url(https://fonts.google.com/specimen/League+Spartan);
+.style{
+    background-color: rgb(247, 247, 247);
+    font-family:'League Spartan' ;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' standalone='no'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23bcd8f2' fill-opacity='1' d='M0 128L60 133.3C120 139 240 149 360 160C480 171 600 181 720 170.7C840 160 960 128 1080 122.7C1200 117 1320 139 1380 149.3L1440 160L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigbox{
+    background-color: white;
+    width: 315px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 75px;
+    overflow:hidden; /*  border-top-left-radius: 20px;
+    border-top-right-radius: 20px; dans img1 */
+    box-shadow: 0px 10px 15px 0px rgb(93, 103, 139);
+}
+.logobox{
+    background-color: rgb(247, 247, 247);
+    height: 90px;
+    font-size: smaller;
+    margin-bottom: 30px;
+    margin: 0px 25px 25px 25px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row ;
+    
+    
+}
+#justifystart{
+    margin-left: auto;
+    margin-right: 20px;
+}
+.payementbox{
+    background-color:rgb(21, 42, 110) ;
+    margin: 0px 25px 25px 25px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 11px;
+    box-shadow: 0px 3px 15px 0px rgb(93, 103, 139) ;
+
+}
+#Img1{
+    width: 100%;
+}
+.stylep1{
+    font-weight: 900;
+    font-size: larger;
+    margin-top: 30px ;
+}
+.stylep2{
+    font-weight: lighter;
+    opacity: 0.6;
+}
+a{
+    text-decoration: none;
+}
+#colorlink{
+    color: white;
+    
+}
+.textemilieu{
+    margin-left: 10px;
+}
+#logo{
+    margin-left: 10px;
+}
+.bold{
+    font-weight: 900;
+    line-height: 25px;
+}
+.light{
+    opacity: 0.6;
+}
